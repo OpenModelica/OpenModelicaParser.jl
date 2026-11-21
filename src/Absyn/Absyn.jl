@@ -28,8 +28,8 @@ CONDITIONS OF OSMC-PL.
 """
     OpenModelicaParser.Absyn
 
-The abstract syntax of Modelica and MetaModelica: the records of omc's `Absyn` (OMCompiler/Compiler/FrontEnd/Absyn.mo),
-which `OpenModelicaParser.Parser` builds and the frontend instantiates. Formerly the package Absyn.jl (1.4.2); `import
+The abstract syntax of Modelica and MetaModelica: the records that `OpenModelicaParser.Parser` builds and the frontend
+instantiates. Formerly the package Absyn.jl (1.4.2); `import
 OpenModelicaParser.Absyn` keeps the name `Absyn` in the code that uses it.
 """
 module Absyn
@@ -52,7 +52,7 @@ using .Optional
 """
     SourceInfo
 
-Where a syntax element or class is in the source (omc's `SourceInfo`, formerly MetaModelica's).
+Where a syntax element or class is in the source (formerly MetaModelica's `SourceInfo`).
 """
 abstract type SourceInfo end
 

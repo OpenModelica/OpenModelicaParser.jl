@@ -104,7 +104,7 @@ dumpExp(::Exp)::String = "<unknown exp>"
 
 """
 How tightly an expression binds, higher is tighter: if-expressions and ranges, `or`, `and`, `not`, relations,
-`+ -`, `* /`, unary `+ -`, `^`, then primaries. Unary minus binds tighter than `*` (`-a*x`, as omc prints it) and
+`+ -`, `* /`, unary `+ -`, `^`, then primaries. Unary minus binds tighter than `*` (`-a*x`) and
 looser than `^` (`(-a)^2`).
 """
 function dumpPrecedence(exp::Exp)::Int

@@ -1,6 +1,6 @@
 # OpenModelicaParser.jl
 
-[![CI](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml) [![Coverage](https://img.shields.io/endpoint?url=https://openmodelica.github.io/OpenModelicaParser.jl/coverage.json)](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml?query=branch%3Amaster)
+[![CI](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml) [![Coverage](https://img.shields.io/endpoint?url=https://openmodelica.github.io/OpenModelicaParser.jl/coverage.json)](https://github.com/OpenModelica/OpenModelicaParser.jl/actions/workflows/main.yml?query=branch%3Amaster) [![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://OpenModelica.github.io/OpenModelicaParser.jl/dev/)
 
 A Modelica parser written in Julia. It reads Modelica (and MetaModelica, ParModelica, Optimica and
 PDEModelica) into `Absyn` trees, the abstract syntax of the OpenModelica compiler, which
