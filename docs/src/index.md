@@ -13,12 +13,13 @@ Two modules:
 `Modelica"..."` takes Modelica source written in a Julia file ([Modelica in Julia files](macro.md)).
 
 Formerly OMParser.jl: OpenModelicaParser 1.0.0 is OMParser 1.1.0 renamed, with a new UUID. OMParser
-stays registered for the packages that depend on it.
+was never in General; it stays registered in OpenModelicaRegistry, and its repository and tags stay in place, for the
+packages that depend on it.
 
 ## Install
 ```julia
 import Pkg
-Pkg.add(url = "https://github.com/OpenModelica/OpenModelicaParser.jl")
+Pkg.add("OpenModelicaParser")
 ```
 
 ## Use

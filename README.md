@@ -12,7 +12,8 @@ Two modules: `OpenModelicaParser.Absyn`, the syntax tree records (formerly the p
 `OpenModelicaParser.parseFile` etc. `Modelica"..."` takes Modelica source written in a Julia file.
 
 Formerly OMParser.jl: OpenModelicaParser 1.0.0 is OMParser 1.1.0 renamed, with a new UUID. OMParser
-stays registered for the packages that depend on it.
+was never in General; it stays registered in OpenModelicaRegistry, and its repository and tags stay in place, for the
+packages that depend on it.
 
 ## Use
 ```julia
@@ -88,10 +89,9 @@ The parser has no dynamic dispatch (tested), so programs that use it can be comp
 (the build command is in the file): a 2.4 MB executable that parses MSL 4.1.0 in 0.13 s.
 
 ## Install
-Not registered yet. Add it from the repository:
 ```julia
 import Pkg
-Pkg.add(url = "https://github.com/OpenModelica/OpenModelicaParser.jl")
+Pkg.add("OpenModelicaParser")
 ```
 
 ## License
